@@ -1,2 +1,76 @@
-test
-test2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pretest 4</title>
+    <link rel="stylesheet" href="/baitap//baitappretest4/pretest4.css">
+    <script src="/baitap/baitappretest4/pretest4.js"></script>
+</head>
+<body class="body1">
+    <header>
+        <img src="/baitap/logo.jpg" alt="logo" class="logo">
+        <div class="logo1">Amazing Bridges</div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/baitap/baitappretest4/home.html"><div>HOME</div></a></li>
+            <li><a href="#"><div class="nav2">WORLD BRIDES</div></a></li>
+            <li><a href="#"><div>TOP LONGEST</div></a></li>
+            <li><a href="#"><div>TOP HIGHEST</div></i></a></li>
+            <li><a href="/baitap/baitappretest4/register.html"><div>CONTACT</div></a></li><br>
+        </ul>
+    </nav>
+    <div><hr></div>
+    <section>
+        <form>
+            <table class="tab">
+                <caption>Contact Us</caption>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                        <legend>Your Details</legend>  
+                        <div>Name <input type="text" class="na" required minlength="3" id="name1"><span> *</span></div>
+                        <div>Email <input type="email" class="na" required pattern="^\w+@\w+\.\w+$" id="email1"><span> *</span></div>
+                    </fieldset>
+                    </td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                           <legend>Your Review</legend> 
+                        <div>How did you hear about us?
+                         <select id="sel1">
+                            <option value="Google">Google</option>
+                            <option value="Friend">Friendr</option>
+                            <option value="Advert">Advert</option>
+                            <option value="Other">Other</option>
+                         </select></div>
+                        <div>Would you visit again?
+                            <input type="radio" value="yes" name="ok" class="ok">Yes
+                            <input type="radio" value="no" name="ok" class="ok">No
+                            <input type="radio" value="maybe" name="ok" class="ok">Maybe
+                            </div>
+                            <div><label for="">Comment:</label></div>
+                        <div>
+                             <textarea name="comment" cols="30" rows="10" id="comment1"></textarea>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="sign" class="check">Sign me up for email updates
+                        </div>
+                        <div>
+                            <input type="submit" id="sub" value="Submit" onclick="return thongbao();">
+                            <input type="reset" id="sub" value="Reset">
+                        </div>
+                    </fieldset>
+                    </td>
+                    <!-- <td></td> -->
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer><br> Copyright @ by ABC Team - April, 2020</footer>
+</body>
+</html>
