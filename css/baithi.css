@@ -1,0 +1,51 @@
+.logo{
+    display: block;
+    margin: auto;   
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    width: 15%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.keys{
+    display: block;
+    margin: auto; 
+}
+footer{
+    text-align: center;
+}
+.register{
+    display: block;
+    margin: auto;
+    width: 32%;
+    border: solid 1px;
+}
+#SI{
+    background: black;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.res{
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    background: black;
+}
+.sub{
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    background: black;
+}
+input:required:invalid{
+    border: 2px solid red;
+}
+input:required:valid{
+    border: 2px solid black;
+}
