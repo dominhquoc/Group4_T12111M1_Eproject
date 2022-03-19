@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thi</title>
+    <link rel="stylesheet" href="css/baithi.css">
+    <script src="js/baithi.js"></script>
+</head>
+<body>
+    <header><img src="/baitap/logo.gif" alt="logo" class="logo"></header>
+    <nav>
+        <hr>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">FOR SALE</a></li>
+            <li><a href="#">REPAIRS</a></li>
+            <li><a href="#"><div id="AU">SIGNIN</div></a></li>
+            <li><a href="index2.html">REGISTER</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        <hr>
+    </nav>
+    <section>
+        <form onsubmit="return showInfo();">
+            <table class="register">
+                <tr>
+                    <td colspan="2"><div id="SI">Enter Details Your Account</div></td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                    <!-- <td></td> -->
+                </tr>
+                <tr>
+                    <td><label for="">First Name</label></td>
+                    <td>
+                        <input type="text" required id="name1">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Last Name</label></td>
+                    <td>
+                        <input type="text" required id="name2">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Birth</label></td>
+                    <td>
+                        <input type="date" id="birth">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" required pattern="^\w+@\w+\.\w+.\w+$" id="email1"> </td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="ok" value="Yes" class="ok">Yes
+                        <input type="radio" name="ok" value="No" class="ok">No
+                    </td>
+                </tr>
+                <td colspan="2"><label for="">How dis you know about this website?<br></label>
+                    <label>
+                        <input type="checkbox" value="News paper" class="hobbies">News paper
+                    </label>
+                    <label>
+                        <input type="checkbox" value="Magazine" class="hobbies">Magazine
+                    </label>
+                    <label>
+                        <input type="checkbox" value="From a friend" class="hobbies">From a friend
+                    </label>
+                    <label>
+                        <input type="checkbox" value="From a website" class="hobbies">From a website
+                    </label> </td><br>
+                <!-- <td>
+
+                     </td> -->
+                 </tr>
+              <tr>
+                <td>Comment</td>
+                <td>
+                    <textarea name="" id="comment" cols="" rows="4"></textarea>
+                </td>
+            </tr>
+                <tr>
+                    <td rowspan="2">
+                        <input type="submit" class="sub">
+                        <input type="reset" class="res">
+                    </td>
+                    <!-- <td></td> -->
+                </tr>
+            </table>
+        </form>
+    </section>
+    <footer>We specialize in the sale and repair of classic keyboards, in paticular the Fender Rhodes,
+    Wurlitef EP200, and Hohner Clavinet.</footer>
+</body>
+</html>
